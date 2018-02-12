@@ -1,4 +1,4 @@
-<h1> YouTube API Profile <h1>
+<h1> YouTube API Profile </h1>
 
 YouTube Data API v3 is an effective way to gain access to YouTube
 videos, channels, search through videos, modify certain fields and so

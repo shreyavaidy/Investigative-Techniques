@@ -109,7 +109,8 @@ information/details pertaining to it using the API.
 
             ****Result – ****
 
-`| {                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
+```
+{                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
  "etag": "\\"Wu2llbfqCdxIVjGbVPm2DslKPCA/6D9AcRMFDoqN7Q5jrTCDUiCUgqc\\"",                                                                                                                             
  "pageInfo": {                                                                                                                                                                                                                                                                                                                                 
  "totalResults": 1,                                                                                                                                                                                   
@@ -201,7 +202,7 @@ information/details pertaining to it using the API.
   }                                                            
  }                                                            
 \]                                                                                                                                                                                                   
- }`
+ }```
 
 ***Query 2 –*** 
 \[Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)\]
@@ -221,7 +222,7 @@ information/details pertaining to it using the API.
 
 -   Result –
 
-`
+```
 | {                                                                                                                                                                                                                                                                                                                                                                                                         
  "items": \[                                                                                                                                                                                                                                                                                                                                                                                                       
  {                                                                                                                                                                                                                                                                                                                                                                                                                 
@@ -293,7 +294,8 @@ information/details pertaining to it using the API.
  \]                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                           
  }                                                                                                                                       
-`                                                                                                                               
+```                                                                                                                               
+
 
 <h3> To get information in relation with a Channel ID </h3>
 

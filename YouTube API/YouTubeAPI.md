@@ -88,26 +88,20 @@ information/details pertaining to it using the API.
     (https://www.youtube.com/watch?v=wY64gIIm0Ys)\]
 > [https://www.googleapis.com/youtube/v3/videos?id=wY64gIIm0Ys&key=”YOUR\_DEVELOPER\_KEY”&part=snippet,contentDetails,statistics,status](https://www.googleapis.com/youtube/v3/videos?id=wY64gIIm0Ys&key=”YOUR_DEVELOPER_KEY”&part=snippet,contentDetails,statistics,status)
 
--   *Explanation* –
+-   **Explanation** –
 
     -   API call accesses the video with ‘id’ (wY64gIIm0Ys)
 
     -   Key – “YOUR\_DEVELOPER\_KEY” (without OATH)
 
     -   Part - I have passed
-
-        -   “snippet” – Gives Channel ID, Video name, thumbnails etc.
-
-        -   “contentDetails” – Gives the kind of request items,
-            duration, caption etc.
-
-        -   “statistics” – gives the number of views, likes, favourites
-            and comments.
-
-        -   “status” – Gives the status of the upload, privacy details,
+     1. “snippet” – Gives Channel ID, Video name, thumbnails etc.
+     2. “contentDetails” – Gives the kind of request items, duration, caption etc.
+     3.  “statistics” – gives the number of views, likes, favourites and comments.
+     4. “status” – Gives the status of the upload, privacy details,
             embeddable status and license.
 
-            ****Result – ****
+-   **Result – ** -
 
 ```
 {                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
@@ -201,16 +195,18 @@ information/details pertaining to it using the API.
  "commentCount": "126"                                                                                                                                                                                 
   }                                                            
  }                                                            
-\]                                                                                                                                                                                                   
- }```
+\]                                                                                                                                                                                                  
+ }
+ 
+ ```
 
-***Query 2 –*** 
-\[Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)\]
+- ** Query 2 – ** 
+> \[Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)\]
 
 > [https://www.googleapis.com/youtube/v3/videos?id=6OcOO1k-vGE&key=”YOUR\_DEVELOPER\_KEY”
 &part=snippet,statistics&fields=items(id,snippet)](https://www.googleapis.com/youtube/v3/videos?id=6OcOO1k-vGE&key=)
 
--   Explanation –
+-   **Explanation ** –
 
     -   API call accesses the video with ‘id’ (6OcOO1k-vGE)
 
@@ -220,7 +216,7 @@ information/details pertaining to it using the API.
 
     -   Fields – Filters out (removes) kind and etag from the response
 
--   Result –
+-   **Result** –
 
 ```
 | {                                                                                                                                                                                                                                                                                                                                                                                                         

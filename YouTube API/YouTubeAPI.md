@@ -108,8 +108,8 @@ information/details pertaining to it using the API.
             embeddable status and license.
 
             ****Result – ****
-`<addr>`
-| {                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
+
+`| {                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
  "etag": "\\"Wu2llbfqCdxIVjGbVPm2DslKPCA/6D9AcRMFDoqN7Q5jrTCDUiCUgqc\\"",                                                                                                                             
  "pageInfo": {                                                                                                                                                                                                                                                                                                                                 
  "totalResults": 1,                                                                                                                                                                                   
@@ -201,7 +201,7 @@ information/details pertaining to it using the API.
   }                                                            
  }                                                            
 \]                                                                                                                                                                                                   
- }                                                                                                                                       </addr>        
+ }`
 
 ***Query 2 –*** 
 \[Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)\]
@@ -221,7 +221,7 @@ information/details pertaining to it using the API.
 
 -   Result –
 
-`<addr>`
+`
 | {                                                                                                                                                                                                                                                                                                                                                                                                         
  "items": \[                                                                                                                                                                                                                                                                                                                                                                                                       
  {                                                                                                                                                                                                                                                                                                                                                                                                                 
@@ -293,7 +293,7 @@ information/details pertaining to it using the API.
  \]                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                           
  }                                                                                                                                       
-</addr>`                                                                                                                               
+`                                                                                                                               
 
 <h3> To get information in relation with a Channel ID </h3>
 

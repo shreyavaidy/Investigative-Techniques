@@ -84,8 +84,9 @@ YouTube Documentation -*
 I choose a YouTube videos of my liking and decided to get
 information/details pertaining to it using the API.
 
--   ***Query 1 –*** \[Video used -
-    (https://www.youtube.com/watch?v=wY64gIIm0Ys)\]
+-   **Query 1** 
+Video used -   (https://www.youtube.com/watch?v=wY64gIIm0Ys)
+
 > [https://www.googleapis.com/youtube/v3/videos?id=wY64gIIm0Ys&key=”YOUR\_DEVELOPER\_KEY”&part=snippet,contentDetails,statistics,status](https://www.googleapis.com/youtube/v3/videos?id=wY64gIIm0Ys&key=”YOUR_DEVELOPER_KEY”&part=snippet,contentDetails,statistics,status)
 
 -   **Explanation** –
@@ -101,7 +102,7 @@ information/details pertaining to it using the API.
      4. “status” – Gives the status of the upload, privacy details,
             embeddable status and license.
 
--   **Result – ** -
+-   **Result** -
 
 ```
 {                                                                                                                                                                                                                                                                         "kind": "youtube\#videoListResponse",                                                                                                                                                               
@@ -201,7 +202,8 @@ information/details pertaining to it using the API.
  ```
 
 - ** Query 2 – ** 
-> \[Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)\]
+
+Video used - (https://www.youtube.com/watch?v=6OcOO1k-vGE)
 
 > [https://www.googleapis.com/youtube/v3/videos?id=6OcOO1k-vGE&key=”YOUR\_DEVELOPER\_KEY”
 &part=snippet,statistics&fields=items(id,snippet)](https://www.googleapis.com/youtube/v3/videos?id=6OcOO1k-vGE&key=)
@@ -331,7 +333,8 @@ information/details pertaining to it using the API.
 <img src="./media/image3.png" width="576" height="170" />
 
 
-<h2> **Process LOG** </h2>
+
+<h2> Process LOG </h2>
 
 1.  Started from the YouTube Data API Documentation page – Getting
     started (<https://developers.google.com/youtube/v3/getting-started>)

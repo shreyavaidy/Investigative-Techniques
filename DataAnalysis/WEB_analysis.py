@@ -12,14 +12,17 @@ data_Reader = csv.DictReader(EBE_file)
 total_contract_value = []
 
 for row in data_Reader:
-    try:
-        total_contract_value.append(int(row[data_Reader.fieldnames[28]])+int(row[data_Reader.fieldnames[32]]))
-    except Exception:
-        pass
+	try:
+		Value1 = int(row[data_Reader.fieldnames[27]])
+		Value2 = int(row[Job_Exp2_Value_of_Contract])
+		print Value1
+		total_contract_value.append(int(row[data_Reader.fieldnames[28]])+int(row[data_Reader.fieldnames[32]]))
+	except Exception:
+		pass
 
 print total_contract_value
 
-my_hist = plt.hist(total_contract_value, histtype='bar', color=['red'])
+#my_hist = plt.hist(Value1, histtype='bar', color=['red'])
 
 #Show the histogram
 plt.show()
